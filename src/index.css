@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-skybg: #F0F8FF;
+  --color-gear-pos: #06B6D4;
+  --color-gear-pos-dark: #0E7490;
+  --color-gear-pos-light: #67E8F9;
+  --color-gear-neg: #EF4444;
+  --color-gear-neg-dark: #B91C1C;
+  --color-gear-neg-light: #FCA5A5;
+  --font-cartoon: 'Baloo 2', 'Comic Sans MS', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-cartoon);
+  background: var(--color-skybg);
+  overscroll-behavior: none;
+}
